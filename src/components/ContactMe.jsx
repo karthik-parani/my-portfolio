@@ -69,15 +69,10 @@ const ContactSection = () => {
               boxShadow: [7],
             }}
           >
-           
-              <MailIcon sx={{marginRight:'3px'}}/>
-            
+            <MailIcon sx={{ marginRight: "3px" }} />
             Contact
           </Button>
 
-
-
-          
           <Button
             style={{ margin: "15px" }}
             variant="contained"
@@ -89,7 +84,7 @@ const ContactSection = () => {
               transition: "all 0.3s ease",
             }}
           >
-            <AttachEmailIcon style={{marginRight:'4px'}}/>
+            <AttachEmailIcon style={{ marginRight: "4px" }} />
             Hire me
           </Button>
 
@@ -129,15 +124,6 @@ const ContactSection = () => {
                 LinkedIn Profile
               </Link>
             </Box>
-
-            <Typography
-              variant="subtitle1"
-              fontWeight="bold"
-              mt={2}
-              gutterBottom
-            >
-              Summary
-            </Typography>
 
             {/* You can add your summary content here if you want it in this section */}
           </Box>

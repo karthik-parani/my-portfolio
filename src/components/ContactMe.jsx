@@ -1,6 +1,6 @@
 import { Box, Button, Typography, Link } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
-import ResumePDF from "../assets/Karthik_FrontEnd.Resume.pdf";
+import ResumePDF from "../assets/Karthik_resume.pdf";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GoogleIcon from "@mui/icons-material/Google";
 import CallIcon from "@mui/icons-material/Call";
@@ -77,7 +77,7 @@ const ContactSection = () => {
             style={{ margin: "15px" }}
             variant="contained"
             href={ResumePDF}
-            download="Karthik_FrontEnd.Resume.pdf"
+            download="Karthik_resume.pdf"
             color="success"
             sx={{
               "&:hover": { transform: "scale(1.05)" },
